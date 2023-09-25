@@ -14,8 +14,7 @@ test.describe ('test suit',() => {
     await page.locator('[Class="btn btn-block submit-btn"]').click();
     await expect (page).toHaveURL(/.*dashboard/);
     //await page.pause()
-
-    //SHould go to Portal
+        //SHould go to Portal
     //should capture patient
    // test('Capture  patient',()=> {})
   await page.locator('#target div').nth(1).click();
